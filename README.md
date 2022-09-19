@@ -49,7 +49,7 @@ $ npm run test:local # will execute the tests against the server started on your
 ```
 
 ```shell
-$ npm run test:remote # will start two containers(one will boot the app - the other will execute the tests)
+$ npm run test:remote # will start two containers (one will boot the app - the other will execute the tests)
 ```
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
