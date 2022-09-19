@@ -41,6 +41,10 @@ The scope of this repository is to act as support for this Medium post and to de
 <h2 id="scripts"> Scripts</h2>
 
 ```shell
+$ npm install # will install all the dependencies on your machine
+```
+
+```shell
 $ npm run start # will start the express server on your localhost
 ```
 
