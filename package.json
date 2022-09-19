@@ -6,7 +6,7 @@
     "start": "node application/app.js",
     "test:local": "jest -c tests/jest.config.js --stage=local",
     "test:docker": "jest -c tests/jest.config.js --stage=docker",
-    "test:remote": "make start_application_and_execute_tests"
+    "test:remote": "docker-compose -f docker/docker-compose.yml up --exit-code-from test-executor --build application test-executor"
   },
   "dependencies": {
     "body-parser": "^1.20.0",

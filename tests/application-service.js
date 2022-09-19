@@ -5,7 +5,7 @@ const {
 /* We're loading the config based on the stage we want to run the test */
 const config = require('./environment');
 
-const LOCALHOST_URL = config.application.url;
+const APPLICATION_URL = config.application.url;
 const ADD_PATH = '/add';
 
 const headers = {
@@ -26,7 +26,7 @@ async function addRequest(a_, b_) {
     a: a_,
     b: b_,
   };
-  const response = await postRequest(`${LOCALHOST_URL + ADD_PATH}`, headers, data);
+  const response = await postRequest(`${APPLICATION_URL + ADD_PATH}`, headers, data);
   return response;
 }
 
