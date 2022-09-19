@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  application: 
+    build:
+      context: ${PWD}
+      dockerfile: ./docker/application.Dockerfile
+    container_name: application
+    ports:
+      - "3000:3000"
+    command: npm run start
+
+  test-executor:
+    build: 
+      context: ${PWD}
+      dockerfile: ./docker/test-executor.Dockerfile
+    container_name: test-executor
+    command: npm run test:docker
+    depends_on:
+      - application
