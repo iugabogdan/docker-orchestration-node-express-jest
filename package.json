@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node application/app.js",
     "test:local": "jest -c tests/jest.config.js --stage=local",
-    "test:docker": "jest -c tests/jest.config.js --stage=docker"
+    "test:docker": "jest -c tests/jest.config.js --stage=docker",
+    "test:remote": "make start_application_and_execute_tests"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
