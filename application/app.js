@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 const port = 3000;
 
 /**
- * Our server is pretty dummy, he only knows to add two numbers
+ * Our server is pretty basic, he only knows to add two numbers
  * But for demo purpose, it is enough.
  * Our route is /add, and it expects to receive two numbers(a and b) in the body
  */
