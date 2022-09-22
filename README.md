@@ -14,7 +14,7 @@
 
 <h2 id="about"> About</h2>
 
-The scope of this repository is to act as support for this Medium post and to demonstrate a simple way of how to orchestrate **docker** containers and validate your application in simple steps using **Node**, a basic **Express** server, **Axios** to trigger requests and **Jest** to execute your tests. 
+The scope of this repository is to act as support for this [Medium Story](https://medium.com/@bogdaniuga/how-to-orchestrate-containers-with-docker-and-validate-your-application-remotely-2b8012e3d200) and to demonstrate a simple way of how to orchestrate **docker** containers and validate your application in simple steps using **Node**, a basic **Express** server, **Axios** to trigger requests and **Jest** to execute your tests. 
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
